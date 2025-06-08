@@ -10,4 +10,8 @@ public class Solution {
 
         return -1;
     }
+
+    // can also use IndexOf (maiive string matching algorithm) built-in function with complexity O(n*m)
+    // there are other algorithms to solve this as well 
+
 }
