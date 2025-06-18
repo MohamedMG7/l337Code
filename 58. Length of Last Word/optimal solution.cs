@@ -17,6 +17,5 @@ public class Solution {
         return length;
     }
 }
-
-// time complexity O(n) => Trim and split takes O(n) => n + n = 2n => O(n)
-// space complexity O(m) m are words in the array after spliting the string s
+// Time Complexity O(n) worst case is we need to traverse the whole string
+// space complexity O(1) no array for splitted string
