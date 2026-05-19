@@ -1,6 +1,6 @@
 public class Solution {
     public int GetCommon(int[] nums1, int[] nums2) {
-        HashSet<int> unique = new HashSet<int>(nums1);
+        HashSet<int> unique = [..nums1]; // colllection expression
         
         foreach(int x in nums2){
             if(unique.Contains(x)) return x;
